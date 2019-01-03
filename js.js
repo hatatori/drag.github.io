@@ -25,8 +25,8 @@
 			y = e.movementY
 
 			if(e.buttons > 0 && k['drag']){
-				k.style.top = parseInt(k.style.top)+y 
-				k.style.left = parseInt(k.style.left)+x
+				k.style.top = parseInt(k.style.top)+y+"px"
+				k.style.left = parseInt(k.style.left)+x+"px"
 			}		
 
 			return false
